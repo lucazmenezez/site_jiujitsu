@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+form button,
+form input {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgba(231, 231, 231, 0.774);
+}
+
+body main,
+body #contact {
+    margin: 0 300px;
+}
+
+header,
+h2, h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+}
+
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 24px;
+    font-size: 36px;
+}
+
+h3 {
+    margin: 28px;
+    font-size: 24px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 32px;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .container img {
+    width: 800px;
+    margin: 24px 0;
+}
+
+main article p {
+    text-align: start;
+    width: 800px;
+}
+
+#faixas article img {
+    border: black solid 12px;
+}
+
+.social-links li img {
+    height: 30px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 12px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form input:focus {
+    outline-color: black;
+}
+
+form button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(119, 119, 119);
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
